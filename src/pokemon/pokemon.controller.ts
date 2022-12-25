@@ -16,7 +16,7 @@ import { ParseMongoIdPipe } from 'src/common/pipes/parse-mongo-id/parse-mongo-id
 
 @Controller('pokemon')
 export class PokemonController {
-  constructor(private readonly pokemonService: PokemonService) { }
+  constructor(private readonly pokemonService: PokemonService) {}
 
   @Post()
   create(@Body() createPokemonDto: CreatePokemonDto) {

@@ -6,7 +6,7 @@ import { PokemonModule } from './pokemon/pokemon.module';
 import { CommonModule } from './common/common.module';
 import { SeedModule } from './seed/seed.module';
 
-const MONGO_URI = 'mongodb://root:toor@179.43.127.117:27017/';
+const MONGO_URI = 'mongodb://127.0.0.1:27017/';
 
 @Module({
   imports: [
