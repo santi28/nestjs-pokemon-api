@@ -20,6 +20,21 @@ $ docker-compose up -d
 $ pnpm install
 ```
 
+### Configuración de la aplicación
+
+- Clonar el fichero `.env.example` y renombrarlo a `.env`
+- Configurar las variables de entorno en el fichero `.env`
+
+_Tabla con las variables de entorno disponibles:_
+
+| Variable      | Descripción                    | Valor por defecto |
+| ------------- | ------------------------------ | ----------------- |
+| PORT          | Puerto de la aplicación        | 8080              |
+| MONGODB_URI   | URI de la base de datos        | mongodb://        |
+| MONGODB_DB    | Nombre de la base de datos     | pokemons          |
+| DEFAULT_LIMIT | Número de elementos por página | 10                |
+| ENVIROMENT    | Entorno de la aplicación       | development       |
+
 ### Ejecución de la aplicación
 
 ```bash
